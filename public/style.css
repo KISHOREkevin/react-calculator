@@ -1,31 +1,36 @@
 body{
     display: flex;
     justify-content: center;
-}
-.app-container{
-    width: 400px;
-    height: 400px;
-    margin-top: 200px;
+    background-color: #3AA6B9;
+    background-image: url("https://transparenttextures.com/patterns/60-lines.png");
 }
 .calculator{
-    display: grid;
-    grid-template-columns: repeat(4,50px);
+    width: 250px;
+    margin-top: 150px;
+
 }
 .display{
-    grid-column-start: 1;
-    grid-column-end: 5;
-    height: 40px;
-    font-size: 30px;
-    text-align: right;
-    border: 1px solid black;
+    padding:2px 5px;
     
-    padding-top: 5px;
+    background-color:#FFD0D0;
+    font-size: 30px;
+    overflow:hidden;
+    border-radius: 5px;
+    margin-bottom: 5px;
+   
 }
-button{
-    height: 50px;
-    background-color: white;
-    border:1px solid lightgray;
+.calcbtn{
+    padding: 10px 32px;
+    border-radius: 5px;
+    border: none;
+    margin: 2px;
+    font-size: 25px;
+    background-color: #FF9EAA;
+    color: white;
+    box-shadow:2px 2px 3px black;
 }
-button.operator{
-    background-color: lightgray;
+.calcbtn:active{
+    background-color: #C1ECE4;
+    box-shadow:none;
+    color:black;
 }

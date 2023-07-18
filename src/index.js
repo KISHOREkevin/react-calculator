@@ -2,6 +2,6 @@ import React from "react";
 import ReactDOM from "react-dom/client";
 import App from "./components/App";
 const Root  = ReactDOM.createRoot(document.getElementById("root"));
-Root.render(<div className="app-container">
+Root.render(<div className="container">
         <App />
     </div>);
